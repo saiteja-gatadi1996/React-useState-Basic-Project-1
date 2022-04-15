@@ -1,0 +1,41 @@
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.details > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px 10px;
+}
+
+.container > h2 {
+  text-align: center;
+  background-color: pink;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(136, 65, 77);
+  margin-top: 10px;
+}
+
+.clearButton {
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 7px;
+  background-color: rgb(74, 184, 184);
+  margin-top: 10px;
+}
